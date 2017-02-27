@@ -8,7 +8,7 @@ To-Do List:
 1] Create basic storyboard structure
   - Main menu: embedded in nav control with top right button with social/tweet function, tab Bar on bottom to toggle between 2 views:
     - Main Hub (default): Contains dynamic tableView 
-    - Twitter feed: webView hooked to link of NBPS Athletics Twitter Feed
+    - Twitter feed: webView hooked to link of NBPS Athletics Twitter Feed, loading circle starts animation
     
   
     - Sports Score Views: dynamic UITableViewControllers(embedded in Navigation Controllers), with slide menu button
