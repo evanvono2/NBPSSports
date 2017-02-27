@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20EF9E441E645DE700F45DBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EF9E431E645DE700F45DBB /* AppDelegate.swift */; };
+		20EF9E461E645DE700F45DBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EF9E451E645DE700F45DBB /* ViewController.swift */; };
+		20EF9E491E645DE700F45DBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20EF9E471E645DE700F45DBB /* Main.storyboard */; };
+		20EF9E4B1E645DE700F45DBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20EF9E4A1E645DE700F45DBB /* Assets.xcassets */; };
+		20EF9E4E1E645DE700F45DBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20EF9E4C1E645DE700F45DBB /* LaunchScreen.storyboard */; };
+		20EF9E591E645DE700F45DBB /* NBPS_SportsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EF9E581E645DE700F45DBB /* NBPS_SportsTests.swift */; };
+		20EF9E641E645DE700F45DBB /* NBPS_SportsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EF9E631E645DE700F45DBB /* NBPS_SportsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20EF9E551E645DE700F45DBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20EF9E381E645DE700F45DBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20EF9E3F1E645DE700F45DBB;
+			remoteInfo = "NBPS Sports";
+		};
+		20EF9E601E645DE700F45DBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20EF9E381E645DE700F45DBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20EF9E3F1E645DE700F45DBB;
+			remoteInfo = "NBPS Sports";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20EF9E401E645DE700F45DBB /* NBPS Sports.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NBPS Sports.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20EF9E431E645DE700F45DBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		20EF9E451E645DE700F45DBB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		20EF9E481E645DE700F45DBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		20EF9E4A1E645DE700F45DBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20EF9E4D1E645DE700F45DBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		20EF9E4F1E645DE700F45DBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20EF9E541E645DE700F45DBB /* NBPS SportsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NBPS SportsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20EF9E581E645DE700F45DBB /* NBPS_SportsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NBPS_SportsTests.swift; sourceTree = "<group>"; };
+		20EF9E5A1E645DE700F45DBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20EF9E5F1E645DE700F45DBB /* NBPS SportsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NBPS SportsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20EF9E631E645DE700F45DBB /* NBPS_SportsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NBPS_SportsUITests.swift; sourceTree = "<group>"; };
+		20EF9E651E645DE700F45DBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20EF9E3D1E645DE700F45DBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20EF9E511E645DE700F45DBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20EF9E5C1E645DE700F45DBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20EF9E371E645DE700F45DBB = {
+			isa = PBXGroup;
+			children = (
+				20EF9E421E645DE700F45DBB /* NBPS Sports */,
+				20EF9E571E645DE700F45DBB /* NBPS SportsTests */,
+				20EF9E621E645DE700F45DBB /* NBPS SportsUITests */,
+				20EF9E411E645DE700F45DBB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		20EF9E411E645DE700F45DBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20EF9E401E645DE700F45DBB /* NBPS Sports.app */,
+				20EF9E541E645DE700F45DBB /* NBPS SportsTests.xctest */,
+				20EF9E5F1E645DE700F45DBB /* NBPS SportsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20EF9E421E645DE700F45DBB /* NBPS Sports */ = {
+			isa = PBXGroup;
+			children = (
+				20EF9E431E645DE700F45DBB /* AppDelegate.swift */,
+				20EF9E451E645DE700F45DBB /* ViewController.swift */,
+				20EF9E471E645DE700F45DBB /* Main.storyboard */,
+				20EF9E4A1E645DE700F45DBB /* Assets.xcassets */,
+				20EF9E4C1E645DE700F45DBB /* LaunchScreen.storyboard */,
+				20EF9E4F1E645DE700F45DBB /* Info.plist */,
+			);
+			path = "NBPS Sports";
+			sourceTree = "<group>";
+		};
+		20EF9E571E645DE700F45DBB /* NBPS SportsTests */ = {
+			isa = PBXGroup;
+			children = (
+				20EF9E581E645DE700F45DBB /* NBPS_SportsTests.swift */,
+				20EF9E5A1E645DE700F45DBB /* Info.plist */,
+			);
+			path = "NBPS SportsTests";
+			sourceTree = "<group>";
+		};
+		20EF9E621E645DE700F45DBB /* NBPS SportsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				20EF9E631E645DE700F45DBB /* NBPS_SportsUITests.swift */,
+				20EF9E651E645DE700F45DBB /* Info.plist */,
+			);
+			path = "NBPS SportsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20EF9E3F1E645DE700F45DBB /* NBPS Sports */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20EF9E681E645DE700F45DBB /* Build configuration list for PBXNativeTarget "NBPS Sports" */;
+			buildPhases = (
+				20EF9E3C1E645DE700F45DBB /* Sources */,
+				20EF9E3D1E645DE700F45DBB /* Frameworks */,
+				20EF9E3E1E645DE700F45DBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NBPS Sports";
+			productName = "NBPS Sports";
+			productReference = 20EF9E401E645DE700F45DBB /* NBPS Sports.app */;
+			productType = "com.apple.product-type.application";
+		};
+		20EF9E531E645DE700F45DBB /* NBPS SportsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20EF9E6B1E645DE700F45DBB /* Build configuration list for PBXNativeTarget "NBPS SportsTests" */;
+			buildPhases = (
+				20EF9E501E645DE700F45DBB /* Sources */,
+				20EF9E511E645DE700F45DBB /* Frameworks */,
+				20EF9E521E645DE700F45DBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20EF9E561E645DE700F45DBB /* PBXTargetDependency */,
+			);
+			name = "NBPS SportsTests";
+			productName = "NBPS SportsTests";
+			productReference = 20EF9E541E645DE700F45DBB /* NBPS SportsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		20EF9E5E1E645DE700F45DBB /* NBPS SportsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20EF9E6E1E645DE700F45DBB /* Build configuration list for PBXNativeTarget "NBPS SportsUITests" */;
+			buildPhases = (
+				20EF9E5B1E645DE700F45DBB /* Sources */,
+				20EF9E5C1E645DE700F45DBB /* Frameworks */,
+				20EF9E5D1E645DE700F45DBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20EF9E611E645DE700F45DBB /* PBXTargetDependency */,
+			);
+			name = "NBPS SportsUITests";
+			productName = "NBPS SportsUITests";
+			productReference = 20EF9E5F1E645DE700F45DBB /* NBPS SportsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20EF9E381E645DE700F45DBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "NBPS Athletics";
+				TargetAttributes = {
+					20EF9E3F1E645DE700F45DBB = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					20EF9E531E645DE700F45DBB = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 20EF9E3F1E645DE700F45DBB;
+					};
+					20EF9E5E1E645DE700F45DBB = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 20EF9E3F1E645DE700F45DBB;
+					};
+				};
+			};
+			buildConfigurationList = 20EF9E3B1E645DE700F45DBB /* Build configuration list for PBXProject "NBPS Sports" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20EF9E371E645DE700F45DBB;
+			productRefGroup = 20EF9E411E645DE700F45DBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20EF9E3F1E645DE700F45DBB /* NBPS Sports */,
+				20EF9E531E645DE700F45DBB /* NBPS SportsTests */,
+				20EF9E5E1E645DE700F45DBB /* NBPS SportsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20EF9E3E1E645DE700F45DBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20EF9E4E1E645DE700F45DBB /* LaunchScreen.storyboard in Resources */,
+				20EF9E4B1E645DE700F45DBB /* Assets.xcassets in Resources */,
+				20EF9E491E645DE700F45DBB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20EF9E521E645DE700F45DBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20EF9E5D1E645DE700F45DBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20EF9E3C1E645DE700F45DBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20EF9E461E645DE700F45DBB /* ViewController.swift in Sources */,
+				20EF9E441E645DE700F45DBB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20EF9E501E645DE700F45DBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20EF9E591E645DE700F45DBB /* NBPS_SportsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20EF9E5B1E645DE700F45DBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20EF9E641E645DE700F45DBB /* NBPS_SportsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20EF9E561E645DE700F45DBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20EF9E3F1E645DE700F45DBB /* NBPS Sports */;
+			targetProxy = 20EF9E551E645DE700F45DBB /* PBXContainerItemProxy */;
+		};
+		20EF9E611E645DE700F45DBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20EF9E3F1E645DE700F45DBB /* NBPS Sports */;
+			targetProxy = 20EF9E601E645DE700F45DBB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		20EF9E471E645DE700F45DBB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20EF9E481E645DE700F45DBB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		20EF9E4C1E645DE700F45DBB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20EF9E4D1E645DE700F45DBB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20EF9E661E645DE700F45DBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		20EF9E671E645DE700F45DBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20EF9E691E645DE700F45DBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "NBPS Sports/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NBPS.NBPS-Sports";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		20EF9E6A1E645DE700F45DBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "NBPS Sports/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NBPS.NBPS-Sports";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		20EF9E6C1E645DE700F45DBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "NBPS SportsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NBPS.NBPS-SportsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NBPS Sports.app/NBPS Sports";
+			};
+			name = Debug;
+		};
+		20EF9E6D1E645DE700F45DBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "NBPS SportsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NBPS.NBPS-SportsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NBPS Sports.app/NBPS Sports";
+			};
+			name = Release;
+		};
+		20EF9E6F1E645DE700F45DBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "NBPS SportsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NBPS.NBPS-SportsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "NBPS Sports";
+			};
+			name = Debug;
+		};
+		20EF9E701E645DE700F45DBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "NBPS SportsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NBPS.NBPS-SportsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "NBPS Sports";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20EF9E3B1E645DE700F45DBB /* Build configuration list for PBXProject "NBPS Sports" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20EF9E661E645DE700F45DBB /* Debug */,
+				20EF9E671E645DE700F45DBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20EF9E681E645DE700F45DBB /* Build configuration list for PBXNativeTarget "NBPS Sports" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20EF9E691E645DE700F45DBB /* Debug */,
+				20EF9E6A1E645DE700F45DBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		20EF9E6B1E645DE700F45DBB /* Build configuration list for PBXNativeTarget "NBPS SportsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20EF9E6C1E645DE700F45DBB /* Debug */,
+				20EF9E6D1E645DE700F45DBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		20EF9E6E1E645DE700F45DBB /* Build configuration list for PBXNativeTarget "NBPS SportsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20EF9E6F1E645DE700F45DBB /* Debug */,
+				20EF9E701E645DE700F45DBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20EF9E381E645DE700F45DBB /* Project object */;
+}
