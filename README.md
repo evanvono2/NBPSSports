@@ -10,10 +10,10 @@ To-Do List:
     - Main Hub (default): Contains dynamic tableView 
     - Twitter feed: webView hooked to link of NBPS Athletics Twitter Feed
   
-    
-  - Sports Score Views: dynamic UITableViewControllers(embedded in Navigation Controllers), with slide menu button
-    - Content of each score cell varies by sport; will
-    
+    - Sports Score Views: dynamic UITableViewControllers(embedded in Navigation Controllers), with slide menu button
+      - Content of each score cell varies by sport; Will be sorted by date going oldest to newest downwards
+        - Sections in tableView dynamic: section for previous games, for upcoming (use NSDate for range within 1 week) 
+          - Header for games in future (not including upcoming) separate setion+header for each upcoming cell, title = date
 2] Integrate Firebase
   - New Feed SSH?
   - Create New Account
