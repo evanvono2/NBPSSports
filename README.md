@@ -4,6 +4,7 @@ an app
 To-Do List:
 
 
+1. 
 
 1] Create basic storyboard structure
   - Main menu: embedded in nav control with top right button with social/tweet function, tab Bar on bottom to toggle between 2 views:
