@@ -1,3 +1,5 @@
+
+//  Verson 0.01
 //
 //  ViewController.swift
 //  NBPS Sports
@@ -12,9 +14,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        print("testing")
-        print("heeelo")
+        print("hello")
         // Do any additional setup after loading the view, typically from a nib.
     }
     
